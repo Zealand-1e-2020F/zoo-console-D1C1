@@ -6,5 +6,14 @@ namespace Zoo_ConsoleApp
 {
     class Blå_havkat : Fisk
     {
+        public override bool IsByttedyr()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override bool IsRovdyr()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

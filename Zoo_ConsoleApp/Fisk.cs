@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Fisk : Dyr
+    abstract class Fisk : Dyr, IRovdyr, IByttedyr
     {
+        public abstract bool IsByttedyr();
+        public abstract bool IsRovdyr();
+ 
     }
 }
