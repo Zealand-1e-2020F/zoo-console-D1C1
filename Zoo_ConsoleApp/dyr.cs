@@ -9,7 +9,9 @@ namespace Zoo_ConsoleApp
     /// </summary>
     public class Dyr
     {
+        private string _foder;
         public string DyreNavn { get; }
+        public string Foder { get => _foder; set => _foder = value; }
 
         /// <summary>
         /// default constructor
@@ -23,9 +25,10 @@ namespace Zoo_ConsoleApp
         /// cosntructor som tager dyrenavn som parameter
         /// </summary>
         /// <param name="navn">navnet på typen af dyr</param>
-        public Dyr(string navn)
+        public Dyr(string navn, string foder)
         {
             this.DyreNavn = navn;
+            this.Foder = foder;
 
         }
 
