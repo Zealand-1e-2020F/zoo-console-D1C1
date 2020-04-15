@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Birkemus
+    class Birkemus : Pattedyr
     {
     }
 }

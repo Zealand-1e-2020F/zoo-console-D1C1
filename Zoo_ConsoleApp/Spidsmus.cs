@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Spidsmus
+    class Spidsmus : Pattedyr
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Blå_havkat
+    class Blå_havkat : Fisk
     {
     }
 }
