@@ -34,7 +34,7 @@ namespace Zoo_ConsoleApp
 
         public override string ToString()
         {
-            return $"typen er :{DyreNavn}";
+            return $"Navnet på dyret er : {DyreNavn} typen af dyr er : ";
         }
     }
 }
