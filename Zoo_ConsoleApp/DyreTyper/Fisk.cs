@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zoo_ConsoleApp
+namespace Zoo_ConsoleApp.DyreTyper
 {
     abstract class Fisk : Dyr, IRovdyr, IByttedyr
     {

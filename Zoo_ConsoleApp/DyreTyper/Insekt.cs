@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zoo_ConsoleApp
+namespace Zoo_ConsoleApp.DyreTyper
 {
-    class Birkemus : Pattedyr
+    class Insekt : Dyr
     {
     }
 }

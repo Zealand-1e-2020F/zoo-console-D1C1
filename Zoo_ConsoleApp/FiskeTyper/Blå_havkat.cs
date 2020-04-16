@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Blåhaj : Fisk
+    class Blå_havkat : DyreTyper.Fisk
     {
         public override bool IsByttedyr()
         {
