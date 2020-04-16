@@ -19,5 +19,10 @@ namespace Zoo_ConsoleApp
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "Myrer";
+        }
     }
 }
