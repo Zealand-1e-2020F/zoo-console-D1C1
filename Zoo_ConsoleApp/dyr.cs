@@ -7,7 +7,7 @@ namespace Zoo_ConsoleApp
     /// <summary>
     /// base klasse for dyr i zoo
     /// </summary>
-    public class Dyr 
+    public abstract class Dyr 
     {
         private string _foder;
         public string DyreNavn { get; }
@@ -31,16 +31,10 @@ namespace Zoo_ConsoleApp
             this.Foder = foder;
 
         }
-        /*
-        public virtual bool IsByttedyr()
-        {
-            return false;
-        }
 
-        public virtual bool IsRovdyr()
+        public override string ToString()
         {
-            return false;
+            return $"typen er :{DyreNavn}";
         }
-        */
     }
 }

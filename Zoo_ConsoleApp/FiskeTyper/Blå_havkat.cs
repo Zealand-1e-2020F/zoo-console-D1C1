@@ -6,6 +6,10 @@ namespace Zoo_ConsoleApp
 {
     class Blå_havkat : DyreTyper.Fisk
     {
+        public Blå_havkat(string navn, string foder) : base(navn, foder)
+        {
+        }
+
         public override bool IsByttedyr()
         {
             throw new NotImplementedException();

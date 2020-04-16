@@ -6,6 +6,10 @@ namespace Zoo_ConsoleApp
 {
     class Aborre : DyreTyper.Fisk
     {
+        public Aborre(string navn, string foder) : base(navn, foder)
+        {
+        }
+
         public override bool IsByttedyr()
         {
             throw new NotImplementedException();
@@ -14,6 +18,11 @@ namespace Zoo_ConsoleApp
         public override bool IsRovdyr()
         {
             throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return base.ToString()+ "Aborre";
         }
     }
 }

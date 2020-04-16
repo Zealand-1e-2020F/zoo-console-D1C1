@@ -8,9 +8,12 @@ namespace Zoo_ConsoleApp
         {
             Console.WriteLine("Hello Zoo!");
 
-            Dyr elefant = new Dyr("Elefant","græs");
+            //Dyr elefant = new Dyr("Elefant","græs");
 
-            Console.WriteLine(elefant.DyreNavn);
+            Aborre aborreFisk = new Aborre("","");
+
+            //Console.WriteLine(elefant.DyreNavn);
+            Console.WriteLine(aborreFisk.ToString());
 
         }
     }

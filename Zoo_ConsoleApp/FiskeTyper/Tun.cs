@@ -6,6 +6,10 @@ namespace Zoo_ConsoleApp
 {
     class Tun : DyreTyper.Fisk
     {
+        public Tun(string navn, string foder) : base(navn, foder)
+        {
+        }
+
         public override bool IsByttedyr()
         {
             throw new NotImplementedException();

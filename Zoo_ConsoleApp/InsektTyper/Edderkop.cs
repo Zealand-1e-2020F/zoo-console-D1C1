@@ -4,7 +4,20 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Edderkop : Insekt
+    class Edderkop : DyreTyper.Insekt
     {
+        public Edderkop(string navn, string foder) : base(navn, foder)
+        {
+        }
+
+        public override bool IsByttedyr()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override bool IsRovdyr()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -4,7 +4,20 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Myg : Insekt
+    class Myg : DyreTyper.Insekt
     {
+        public Myg(string navn, string foder) : base(navn, foder)
+        {
+        }
+
+        public override bool IsByttedyr()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override bool IsRovdyr()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

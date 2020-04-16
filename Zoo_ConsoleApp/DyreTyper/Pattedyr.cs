@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Zoo_ConsoleApp.DyreTyper
 {
-    class Pattedyr : Dyr
+    abstract class Pattedyr : Dyr, IRovdyr, IByttedyr
     {
+        public Pattedyr(string navn, string foder) : base(navn, foder)
+        {
+        }
+
+        public abstract bool IsByttedyr();
+
+        public abstract bool IsRovdyr();
     }
 }
